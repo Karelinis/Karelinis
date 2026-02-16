@@ -106,15 +106,15 @@ layout: page
   <li class="page-item previous">
     <a class="page-link" href="{{ paginator.previous_page_path | absolute_url }}">
       <i class="fas fa-arrow-left" alt="Newer Posts"></i>
-      <span class="d-none d-sm-inline-block">Новое</span>
+      <span class="d-none d-sm-inline-block">Следующая страница</span>
     </a>
   </li>
   {% endif %}
   {% if paginator.next_page %}
   <li class="page-item next">
     <a class="page-link" href="{{ paginator.next_page_path | absolute_url }}">
-      <span class="d-none d-sm-inline-block">Older Posts</span>
-      <i class="fas fa-arrow-right" alt="Старое"></i>
+      <span class="d-none d-sm-inline-block">Предыдущая страница</span>
+      <i class="fas fa-arrow-right" alt="Older Posts"></i>
     </a>
   </li>
   {% endif %}
