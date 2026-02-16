@@ -20,7 +20,7 @@ author: Karik
 ###############################################
 
 navbar-links:
-  About Me: "обо мне"
+  Обо мне: "aboutme"
   Используемые ресурсы:
     - Beautiful Jekyll: "https://beautifuljekyll.com"
     - Learn markdown: "https://www.markdowntutorial.com/"
@@ -52,9 +52,9 @@ social-network-links:
   email: "karelini566@gmail.com"
   rss: true  # remove this line if you don't want to show an RSS link at the bottom
   github: Karelinis
-  patreon: DeanAttali
-  youtube: "@daattali"
-  whatsapp: 15551212
+#  patreon: DeanAttali
+#  youtube: "@daattali"
+#  whatsapp: 15551212
 #  medium: yourname
 #  reddit: yourname or r/yoursubreddit
 #  linkedin: daattali
